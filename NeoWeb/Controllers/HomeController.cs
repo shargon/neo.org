@@ -48,7 +48,7 @@ namespace NeoWeb.Controllers
             }
             catch (InvalidOperationException)
             {
-                return RedirectToAction("Index"); ;
+                return RedirectToAction("Index");
             }
             catch (CultureNotFoundException)
             {
